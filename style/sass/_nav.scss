@@ -1,0 +1,30 @@
+.btnNav{
+  padding: 10px;
+  background: $colorTri;
+  color: $colorPink;
+  font-family: 'Amatic SC', cursive;
+  float: right;
+  text:{
+    transform: uppercase;
+    decoration: none;
+  }
+}
+
+.nav {
+  width: 100vw - ($basePadd *2);
+  height: 100vh - ($basePadd *2);
+  background-color: $colorSec;
+  background-color: $colorYell;
+  li{
+    margin: 0.5em;
+    font-family: 'Amatic SC', cursive;
+    font-size: 5em;
+    a{
+      color: $colorTri;
+      text-decoration: none;
+    &:hover{
+
+    }
+    }
+  }
+}
