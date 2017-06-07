@@ -1,58 +1,36 @@
-#my-layout {
-  display: flex; }
-
-#my-layout {
-  padding: 24px; }
-
-.btnNav {
-  padding: 10px;
-  background: #FFFFFF;
-  color: #E3667B;
-  font-family: 'Amatic SC', cursive;
-  float: right;
-  text-transform: uppercase;
-  text-decoration: none; }
-
-.nav {
-  width: 92vw;
-  height: 92vh;
-  background-color: #f2f2f2;
-  background-color: #FFCA6E; }
-  .nav li {
-    margin: 0.5em;
-    font-family: 'Amatic SC', cursive;
-    font-size: 5em; }
-    .nav li a {
-      color: #FFFFFF;
-      text-decoration: none; }
-
 body {
   min-height: 100vh;
   background-color: #FFFFFF;
-  padding-top: 4vh;
-  padding-left: 4vw;
-  padding-right: 4vw; }
+  padding-top: 5vh;
+  padding-left: 5vw;
+  padding-right: 5vw; }
+
+.navbar-header ul {
+  padding: 0;
+  vertical-align: middle; }
+  .navbar-header ul li {
+    display: inline-block;
+    padding: 5px; }
+    .navbar-header ul li a {
+      color: #FFFFFF; }
+      .navbar-header ul li a:hover {
+        color: #E3667B; }
 
 .container {
-  width: 92vw;
-  height: 92vh;
-  color: #FFFFFF;
-  padding-top: 4vh;
-  padding-bottom: 4vh;
-  padding-left: 2vw;
-  padding-right: 2vw; }
-
-.socialNetwork a {
-  padding: 10px;
-  color: #FFFFFF; }
-  .socialNetwork a:hover {
-    color: #f2f2f2;
-    transition: all 0.5s; }
+  width: 90vw;
+  height: 90vh;
+  padding: 15px; }
 
 .home {
   background-image: url("../../img/backgroundHome.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
+
+.btn {
+  background: #FFFFFF;
+  color: #E3667B;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=main.css.map */
